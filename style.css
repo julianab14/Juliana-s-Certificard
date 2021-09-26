@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: rgb(117, 1, 135);
+  background: -moz-linear-gradient(
+    110deg,
+    rgba(117, 1, 135, 1) 0%,
+    rgba(157, 0, 182, 1) 33%,
+    rgba(196, 30, 255, 1) 66%,
+    rgba(205, 3, 246, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    110deg,
+    rgba(117, 1, 135, 1) 0%,
+    rgba(157, 0, 182, 1) 33%,
+    rgba(196, 30, 255, 1) 66%,
+    rgba(205, 3, 246, 1) 100%
+  );
+  background: linear-gradient(
+    110deg,
+    rgba(117, 1, 135, 1) 0%,
+    rgba(157, 0, 182, 1) 33%,
+    rgba(196, 30, 255, 1) 66%,
+    rgba(205, 3, 246, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#750187",endColorstr="#cd03f6",GradientType=1);
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* engloba o body: header e main */
+.container {
+  background: #ecf4ff;
+  margin: 5%;
+  padding: 4%;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #1c1c1c;
+}
+
+/* header */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 120px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 2%;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.icones a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-right: 1%;
+}
+
+.icones a:hover {
+  color: #9d00b6;
+  text-decoration: none;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+/* tema dark */
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .icones a {
+  color: #f7f7f7;
+}
+
+.dark .icones a:hover {
+  color: #9d00b6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+/* aba projetos */
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-projetos {
+  background: rgb(218, 79, 255);
+  background: -moz-linear-gradient(
+    110deg,
+    rgba(218, 79, 255, 1) 0%,
+    rgba(212, 0, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    110deg,
+    rgba(218, 79, 255, 1) 0%,
+    rgba(212, 0, 255, 1) 100%
+  );
+  background: linear-gradient(
+    110deg,
+    rgba(218, 79, 255, 1) 0%,
+    rgba(212, 0, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#da4fff",endColorstr="#d400ff",GradientType=1);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin: 5%;
+  padding: 4%;
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-projetos li {
+  text-align: left;
+}
+
+.div-projetos a {
+  color: black;
+  text-decoration: none;
+}
+
+.div-projetos a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.div-projetos h3 {
+  line-height: 1%;
+}
+
+.div-projetos p {
+  line-height: 1%;
+}
