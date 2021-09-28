@@ -91,6 +91,7 @@ body {
   box-sizing: border-box;
   border-radius: 100px;
   border: 2px solid #0e1d2f;
+  cursor: pointer;
 }
 
 /* tema dark */
@@ -115,6 +116,7 @@ body {
   background: #1c1c1c;
   color: #ffffff;
   border: 2px solid #f7f7f7;
+  cursor: pointer;
 }
 
 /* aba projetos */
